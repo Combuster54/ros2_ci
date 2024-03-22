@@ -21,7 +21,7 @@ RUN mkdir -p /galactic_ws/src
 
 RUN git clone --recursive https://github.com/rigbetellabs/tortoisebot.git -b ros2-galactic /galactic_ws/src/tortoisebot
 
-COPY tortoisebot_waypoints/tortoisebot_waypoints /galactic_ws/src/tortoisebot_waypoints
+COPY /tortoisebot_waypoints /galactic_ws/src/tortoisebot_waypoints
 
 RUN rm -rf /galactic_ws/src/tortoisebot/tortoisebot_control
 # RUN rm -rf /galactic_ws/src/tortoisebot/ydlidar-ros2
