@@ -68,7 +68,7 @@ Congrats! Now, you can add the Jenkins jobs and do amazing things. Let's go! Per
 5. Enter the description
 6. In the Pipeline section, change the Definition to "Pipeline script from SCM"
 7. In the same section, change the SCM to "Git"
-8. Paste "https://github.com/rg-masterclass/ros2_ci.git" into "Repository URL"
+8. Paste "https://github.com/Combuster54/ros2_ci.git" into "Repository URL"
 9. Change "Branch Specifier (blank for 'any')" to "main"
 10. Press the "Save" button
 11. Press the "Build Now" option from the left menu
